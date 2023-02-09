@@ -5,7 +5,7 @@
 <br>
 <strong>Just follow my steps.</strong>
 ## Project You will make
-A plain about me page using only HTML.
+A plain **About Me** page using only HTML.
 
 ## Step by Step Guide
 
