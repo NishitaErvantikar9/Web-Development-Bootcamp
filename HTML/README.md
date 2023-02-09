@@ -6,6 +6,8 @@
 <strong>Just follow my steps.</strong>
 ## Project You will make
 A plain **About Me** page using only HTML.
+![image](https://user-images.githubusercontent.com/120945994/217813797-da94e0f7-10f8-4657-810d-786f1c578b0b.png)
+
 
 ## Step by Step Guide
 
