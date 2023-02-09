@@ -4,6 +4,8 @@
 <strong style="color: green;">Congratulations on your first step towards learning/revising  Web development. This repo will help you learn HTML in next 1 hour!</strong>
 <br>
 <strong>Just follow my steps.</strong>
+## Project You will make
+A plain about me page using only HTML.
 
 ## Step by Step Guide
 
