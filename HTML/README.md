@@ -1,8 +1,8 @@
 # Learning HTML
 <img src="http://pixelartmaker-data-78746291193.nyc3.digitaloceanspaces.com/image/506be14633f06ad.png" height ="80px">
 I just love <strong>bold text</strong>
-**Congratulations on your first step towards learning/revising  Web development. This repo will help you learn HTML in next 1 hour** 
-**Just follow my steps**
+<strong>Congratulations on your first step towards learning/revising  Web development. This repo will help you learn HTML in next 1 hour</strong>
+<strong>Just follow my steps</strong>
 
 ## Step by Step Guide
 
