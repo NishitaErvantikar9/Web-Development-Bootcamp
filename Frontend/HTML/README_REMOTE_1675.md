@@ -1,8 +1,3 @@
-<<<<<<< HEAD:Frontend/HTML/README.md
-
-||||||| 4d29644:HTML/README.md
-
-=======
 # Learning HTML
 <img src="http://pixelartmaker-data-78746291193.nyc3.digitaloceanspaces.com/image/506be14633f06ad.png" height ="80px">
 
@@ -16,4 +11,3 @@ A plain **About Me** page using only HTML.
 ## Step by Step Guide
 
 1. Go to [This website](https://developer.mozilla.org/en-US/docs/Web/HTML)
->>>>>>> 9ef46ae60dab90ff3a5f469a9bd2bd41382ac4db:HTML/README.md

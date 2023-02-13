@@ -1,7 +1,5 @@
 <<<<<<< HEAD:Frontend/HTML/README.md
 
-||||||| 4d29644:HTML/README.md
-
 =======
 # Learning HTML
 <img src="http://pixelartmaker-data-78746291193.nyc3.digitaloceanspaces.com/image/506be14633f06ad.png" height ="80px">
