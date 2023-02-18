@@ -7,4 +7,4 @@
 
 ## 2. Backend
 
-## 3. WEB 3.O
+## 3. Web 3.O
