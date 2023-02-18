@@ -2,11 +2,6 @@
 
 ## 1. Frontend
 
-1.1 HTML
-1.2 CSS
-1.3 BOOTSTRAP
-1.4 JAVASCRIPT
-1.5 REACT
-
+[<img src="https://github.com/NishitaErvantikar9/Web-Development-Bootcamp/blob/main/Images/Techstack-imgs/1.png" height="120px" width="150px">](https://github.com/NishitaErvantikar9/Frontend-Projects)
 
 
