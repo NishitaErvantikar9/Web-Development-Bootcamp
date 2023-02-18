@@ -1,7 +1,7 @@
 # Web-Development-Bootcamp
+[Notion notes](https://www.notion.so/WEB-DEVELOPMENT-eb356592631d42ae973991e3f0a7f4f7)
 
 ## 1. Frontend
-<img src="![Frontendstack-removebg-preview](https://user-images.githubusercontent.com/120945994/219879769-735a5808-a4cc-4b6c-af9a-6276c15db124.png)" height="100px">
 [HTML](https://github.com/NishitaErvantikar9/Frontend-Projects)
 [CSS](https://github.com/NishitaErvantikar9/Frontend-Projects)
 
