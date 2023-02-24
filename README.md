@@ -3,9 +3,9 @@
 
 
 
-| **S.no** | **Topic** | **Project** |
-|---------:|----------:|-------------:           |
-| 1        | HTML      |             |
+| **S.no** | **Topic** | **Project**               |
+|---------:|----------:|---------------------------:             |
+| 1        | HTML      | A resume or about you page           |
 | 2        | CSS       |             |
 | 3        | BOOTSTRAP |             |
 | 4        | JAVASCRIPT|             |
