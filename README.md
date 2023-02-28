@@ -35,8 +35,7 @@ Just reach level 30 and you can start setting up multiple sources of income!
 |          |           |
 
 ## 1. Frontend
-> 1. [HTML](https://github.com/NishitaErvantikar9/Frontend-Projects)
-  <br>
+<a href="https://www.w3schools.com/css/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg" alt="css3" width="40" height="40"/> </a>
   
 > 2. [CSS](https://github.com/NishitaErvantikar9/Frontend-Projects)
 
