@@ -7,7 +7,7 @@ Aim of this repository is to save your time and provide a structure to your self
 It contains two folders. Theory and practical. Both will go simulataneous in Theory folder. But for convenience it is documented differently, so you can refer all projects (level wise) at a single place -> [Projects]()
 
 But this [Theory]() is absolute gold , it contains all the notes, links and even level wise project guidance.
-Just reach level 30 and that job is yours!
+Just reach level 30 and yu can start setting up multiple sources of income!
 
 ## Table of contents
 
