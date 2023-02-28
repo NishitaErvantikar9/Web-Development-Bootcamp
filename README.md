@@ -1,7 +1,15 @@
 # Web-Development-Bootcamp
 
+Hello!
 
+Aim of this repository is to save your time and provide a structure to your self learning. Pretty much what every repo in my notes section aims to do in different tech domains.
 
+It contains two folders. Theory and practical. Both will go simulataneous in Theory folder. But for convenience it is documented differently, so you can refer all projects (level wise) at a single place -> [Projects]()
+
+But this [Theory]() is absolte gold , it contains all the notes, links and even level wise project guidance.
+Just reach level 30 and that job is yours!
+
+## Table of contents
 
 | **S.no** | **Topic** | **Project**               |
 |---------:|----------:|---------------------------:             |
