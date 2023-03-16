@@ -75,10 +75,10 @@ Just reach level 30 and you can start setting up multiple sources of income!
 <a href="https://reactjs.org/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original-wordmark.svg" alt="react" width="50" height="50"/> </a></p> -->
   
 ### 1. Frontend
-        Level 1 : HTML
-        Level 2 : CSS 
-        Level 3 : BOOTSTRAP
-        Level 4 : JAVASCRIPT
+   Level 1 : HTML
+   Level 2 : CSS 
+   Level 3 : BOOTSTRAP
+   Level 4 : JAVASCRIPT
 ### 2. Backend
 ### 3. Web 3.O
 <!-- <a href="https://nodejs.org" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-original-wordmark.svg" alt="nodejs" width="60" height="60"/> </a><a href="https://www.mongodb.com/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mongodb/mongodb-original-wordmark.svg" alt="mongodb" width="40" height="40"/> </a><a href="https://www.mysql.com/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original-wordmark.svg" alt="mysql" width="60" height="60"/> </a> <a href="https://www.php.net" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/php/php-original.svg" alt="php" width="60" height="60"/> </a>
