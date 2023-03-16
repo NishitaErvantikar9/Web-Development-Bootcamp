@@ -10,6 +10,10 @@ It contains two folders. Theory and Practical. Both will go simulataneous in The
 But this [Theory](), it contains all the notes, links and even level wise project guidance.
 Just reach level 30 and you can start setting up multiple sources of income!
 
+## Technologies covered
+
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg"  height="60px" width="60px"/>
+          
 ## Table of contents
 
 | **S.no** | **Topic** | **Project**               |
