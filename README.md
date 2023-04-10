@@ -43,7 +43,7 @@ Just reach level 30 and you can start setting up multiple sources of income!
 
 | **S.no** | **Topic** | **Project**               |
 |---------:|----------:|---------------------------:             |
-| 1        | HTML      | A resume or about you page           |
+| 1        | HTML      | A resume or about you web page           |
 | 2        | CSS       |             |
 | 3        | BOOTSTRAP |             |
 | 4        | JAVASCRIPT|             |
