@@ -13,7 +13,23 @@ Html is a great start to learning markup languages.
 
 
 ## Get started!
-Everything starts and ends with a tag called "<html></html>"
+It starts with this! always!
 
-1. Go to [This website](https://developer.mozilla.org/en-US/docs/Web/HTML)
+      <html>
+        </html>
 
+these are called tags : opening tag and closing tag. now you go inside them and divide your HTML file into two parts: Head and Body like this.
+
+            <html>
+              <head></head>
+              <body></body>
+            </html>
+Head is where title, links and meta data goes. What is meta data? things that you want webpage to contain but now show to the user. it sis sometimes information about the webpage. Body on the other hand is where all the elements that you wanna show on the screen are written.
+  
+
+            <html>
+              <head>
+                 <title>Shown on the tab</title>
+              </head>
+              <body>I am seen on the screen</body>
+            </html>
