@@ -8,7 +8,8 @@
 
 
 # Web-Development-Bootcamp
-![image](https://user-images.githubusercontent.com/120945994/225554942-27925dc2-840e-43ae-b9bd-68700d5dabd7.png)
+<img width="865" alt="image" src="https://github.com/NishitaErvantikar9/Web-Development-Bootcamp/assets/120945994/f6dc7d40-8e2c-435d-ae8c-b1e21e0289f9">
+
 
 Hello!
 
