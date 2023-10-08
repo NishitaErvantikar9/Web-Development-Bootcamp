@@ -24,26 +24,6 @@ JavaScript is a high-level, dynamic, and versatile programming language primaril
 ![image](https://github.com/NishitaErvantikar9/Web-Development-Bootcamp/assets/120945994/de35d315-85dd-455b-8987-3599902a1c9b)
 A JavaScript engine is a software component or virtual machine that interprets and executes JavaScript code. It is responsible for running JavaScript programs, converting the human-readable JavaScript source code into machine-executable instructions, and managing various aspects of code execution, such as memory allocation, optimization, and error handling.
 
-Key functions and components of a JavaScript engine include:
-
-1. **Parser:** The parser analyzes the JavaScript source code, breaking it down into tokens and constructing an abstract syntax tree (AST) that represents the program's structure.
-
-2. **Intermediate Representation:** Some JavaScript engines use an intermediate representation (e.g., bytecode) for optimization and execution rather than directly interpreting the source code.
-
-3. **Interpreter:** The interpreter reads and executes JavaScript code line by line, making it possible to execute the program without compilation. It's responsible for basic execution.
-
-4. **Just-In-Time (JIT) Compiler:** Some JavaScript engines incorporate a JIT compiler, which dynamically compiles parts of the code into machine code for faster execution. This compilation occurs just before execution.
-
-5. **Memory Management:** The engine manages memory allocation and deallocation, including garbage collection to reclaim memory occupied by objects that are no longer in use.
-
-6. **Optimizations:** Modern JavaScript engines perform various optimizations to make code execution faster, such as inlining functions, optimizing loops, and performing constant folding.
-
-7. **Error Handling:** The engine handles runtime errors and exceptions, providing appropriate error messages and stack traces for debugging.
-
-8. **Execution Context:** The engine maintains execution contexts, including the call stack, scope chains, and variables, to manage function calls and variable access.
-
-9. **APIs:** JavaScript engines provide APIs that allow interaction with the host environment (e.g., browsers, Node.js). These APIs expose functionality like DOM manipulation in the browser or file system access in Node.js.
-
 Notable JavaScript engines include:
 
 - **V8:** Developed by Google, V8 is used in the Chrome web browser and Node.js.
