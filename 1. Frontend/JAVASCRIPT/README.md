@@ -20,67 +20,38 @@ JavaScript is a high-level, dynamic, and versatile programming language primaril
 | Functional Reactive Programming (FRP)   | Meta-Programming                       | Community-Driven Evolution             |
 
 
-## How does js work on clients side and server side?
-JavaScript runs differently on the client side and server side, each with its own set of environments and execution contexts. Let's explain this in simple and technical terms and visualize it with a diagram.
+## What is a Javascript Engine?
+![image](https://github.com/NishitaErvantikar9/Web-Development-Bootcamp/assets/120945994/de35d315-85dd-455b-8987-3599902a1c9b)
+A JavaScript engine is a software component or virtual machine that interprets and executes JavaScript code. It is responsible for running JavaScript programs, converting the human-readable JavaScript source code into machine-executable instructions, and managing various aspects of code execution, such as memory allocation, optimization, and error handling.
 
-**Client-Side Execution:**
+Key functions and components of a JavaScript engine include:
 
-1. **User's Browser:** JavaScript code is loaded and executed in the user's web browser (client). The browser includes a JavaScript engine responsible for running the code.
+1. **Parser:** The parser analyzes the JavaScript source code, breaking it down into tokens and constructing an abstract syntax tree (AST) that represents the program's structure.
 
-2. **HTML Document:** The browser parses the HTML document and encounters `<script>` tags or external JavaScript files (`*.js`). It downloads and executes JavaScript code in the order it's encountered.
+2. **Intermediate Representation:** Some JavaScript engines use an intermediate representation (e.g., bytecode) for optimization and execution rather than directly interpreting the source code.
 
-3. **DOM Manipulation:** JavaScript interacts with the Document Object Model (DOM), representing the structure and content of the web page. It can modify HTML elements, handle user interactions, and update the web page dynamically.
+3. **Interpreter:** The interpreter reads and executes JavaScript code line by line, making it possible to execute the program without compilation. It's responsible for basic execution.
 
-4. **Browser APIs:** JavaScript can access browser APIs (e.g., for fetching data, geolocation, local storage) to enhance web functionality.
+4. **Just-In-Time (JIT) Compiler:** Some JavaScript engines incorporate a JIT compiler, which dynamically compiles parts of the code into machine code for faster execution. This compilation occurs just before execution.
 
-5. **User Interface:** JavaScript can change the appearance and behavior of the user interface in real time, creating interactive and responsive web applications.
+5. **Memory Management:** The engine manages memory allocation and deallocation, including garbage collection to reclaim memory occupied by objects that are no longer in use.
 
-Here's a simplified diagram for client-side execution:
+6. **Optimizations:** Modern JavaScript engines perform various optimizations to make code execution faster, such as inlining functions, optimizing loops, and performing constant folding.
 
-```
-   +------------------------------------------------+
-   |                  User's Browser                |
-   |                                                |
-   |   +----------+      +------------+            |
-   |   |   HTML   |      | JavaScript |            |
-   |   | Document | ---> |    Engine  |            |
-   |   |  (DOM)   |      |            |            |
-   |   +----------+      +------------+            |
-   |   | Browser  |                                |
-   |   |  APIs    |                                |
-   |   +----------+                                |
-   |                                                |
-   +------------------------------------------------+
-```
+7. **Error Handling:** The engine handles runtime errors and exceptions, providing appropriate error messages and stack traces for debugging.
 
-**Server-Side Execution:**
+8. **Execution Context:** The engine maintains execution contexts, including the call stack, scope chains, and variables, to manage function calls and variable access.
 
-1. **Server Environment:** JavaScript code is executed on the server side using a server environment or runtime, such as Node.js. Node.js includes a JavaScript engine to run server-side code.
+9. **APIs:** JavaScript engines provide APIs that allow interaction with the host environment (e.g., browsers, Node.js). These APIs expose functionality like DOM manipulation in the browser or file system access in Node.js.
 
-2. **HTTP Request:** When a client (browser) sends an HTTP request to the server, the server processes the request, including running JavaScript code if required.
+Notable JavaScript engines include:
 
-3. **Server-Side Logic:** JavaScript on the server side handles tasks like data processing, database access, authentication, and business logic. It generates dynamic content or responds to API requests.
+- **V8:** Developed by Google, V8 is used in the Chrome web browser and Node.js.
+- **SpiderMonkey:** Developed by Mozilla, SpiderMonkey is used in the Firefox web browser.
+- **JavaScriptCore (Nitro):** Developed by Apple, JavaScriptCore is used in the Safari web browser.
+- **Chakra:** Developed by Microsoft, Chakra was used in the Edge web browser (replaced by V8 in the new Chromium-based Edge).
 
-4. **HTTP Response:** The server sends an HTTP response, often including HTML, JSON, or other data, to the client based on the JavaScript code's execution.
+Each JavaScript engine may have its own unique features, optimizations, and performance characteristics, but they all serve the fundamental purpose of executing JavaScript code in different environments.
+![image](https://github.com/NishitaErvantikar9/Web-Development-Bootcamp/assets/120945994/28a8c4b2-3545-4449-9df9-11867bcc705f)
 
-Here's a simplified diagram for server-side execution:
-
-```
-   +------------------------------------------------+
-   |                 Server Environment             |
-   |                                                |
-   |  +---------+        +---------+                |
-   |  | HTTP    |        | JavaScript|               |
-   |  | Request | --->   |   Engine  |               |
-   |  |         |        |           |               |
-   |  +---------+        +---------+                |
-   |  | Server  |        | Server-  |                |
-   |  | Logic   |        |  Side   |                |
-   |  +---------+        |  Logic  |                |
-   |                     +---------+                |
-   |                     | Database|                |
-   |                     +---------+                |
-   +------------------------------------------------+
-```
-
-In summary, JavaScript runs in the client's web browser to create interactive web experiences and runs on the server side using Node.js or similar environments to handle server-side logic, process data, and generate dynamic content. This separation allows for full-stack development, where JavaScript is used both on the client and server sides of a web application.
+https://medium.com/developers-arena/understanding-the-javascript-v8-engine-6f59bae39f06
