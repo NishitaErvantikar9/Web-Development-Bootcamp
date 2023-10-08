@@ -396,3 +396,294 @@ Expressions are combinations of values, variables, operators, and functions that
    ```
 
 Expressions play a crucial role in JavaScript as they are used to perform calculations, make decisions, and produce results. Understanding operators and how they are used within expressions is essential for writing effective JavaScript code.
+
+## Loops
+Certainly! Here are examples for each type of loop mentioned:
+
+1. **for Loop:**
+   - Iterating a specific number of times:
+
+   ```javascript
+   for (let i = 0; i < 5; i++) {
+     console.log(i);
+   }
+   ```
+
+2. **while Loop:**
+   - Repeating while a condition is true:
+
+   ```javascript
+   let i = 0;
+   while (i < 5) {
+     console.log(i);
+     i++;
+   }
+   ```
+
+3. **do...while Loop:**
+   - Executing at least once and repeating while a condition is true:
+
+   ```javascript
+   let i = 0;
+   do {
+     console.log(i);
+     i++;
+   } while (i < 5);
+   ```
+
+4. **for...in Loop:**
+   - Iterating over object properties:
+
+   ```javascript
+   const person = {
+     name: 'John',
+     age: 30,
+     city: 'New York'
+   };
+
+   for (let key in person) {
+     console.log(`${key}: ${person[key]}`);
+   }
+   ```
+
+5. **for...of Loop:**
+   - Iterating over array elements:
+
+   ```javascript
+   const fruits = ['apple', 'banana', 'cherry'];
+
+   for (let fruit of fruits) {
+     console.log(fruit);
+   }
+   ```
+
+6. **forEach Loop:**
+   - Iterating over array elements with a method:
+
+   ```javascript
+   const numbers = [1, 2, 3];
+
+   numbers.forEach(function(number) {
+     console.log(number);
+   });
+   ```
+
+7. **for...await...of Loop (ES8 and later):**
+   - Iterating asynchronously over values (e.g., using Promises):
+
+   ```javascript
+   const asyncIterable = [asyncFunction1(), asyncFunction2(), asyncFunction3()];
+
+   for await (let result of asyncIterable) {
+     console.log(result);
+   }
+   ```
+
+8. **for...of Loop with Object.values (ES8 and later):**
+   - Iterating over object values:
+
+   ```javascript
+   const person = {
+     name: 'John',
+     age: 30,
+     city: 'New York'
+   };
+
+   for (let value of Object.values(person)) {
+     console.log(value);
+   }
+   ```
+
+9. **for...of Loop with Object.entries (ES8 and later):**
+   - Iterating over object entries (key-value pairs):
+
+   ```javascript
+   const person = {
+     name: 'John',
+     age: 30,
+     city: 'New York'
+   };
+
+   for (let [key, value] of Object.entries(person)) {
+     console.log(`${key}: ${value}`);
+   }
+   ```
+
+10. **for...of Loop with Map (ES6 and later):**
+    - Iterating over Map entries:
+
+   ```javascript
+   const myMap = new Map([
+     ['name', 'John'],
+     ['age', 30],
+     ['city', 'New York']
+   ]);
+
+   for (let [key, value] of myMap) {
+     console.log(`${key}: ${value}`);
+   }
+   ```
+
+11. **for...of Loop with Set (ES6 and later):**
+    - Iterating over Set values:
+
+   ```javascript
+   const mySet = new Set(['apple', 'banana', 'cherry']);
+
+   for (let fruit of mySet) {
+     console.log(fruit);
+   }
+   ```
+
+These examples demonstrate how each type of loop can be used for various tasks and data structures in JavaScript.
+
+## Javascript Functions
+I apologize for the confusion. Let's provide comprehensive examples and detailed explanations for each type of function, covering all the concepts and characteristics:
+
+**1. Function Declaration:**
+   - A named function that is hoisted to the top of its containing scope.
+   - Can be called before they are declared.
+
+   ```javascript
+   sayHello(); // Call before declaration is allowed
+
+   function sayHello() {
+     console.log('Hello!');
+   }
+   ```
+
+**2. Function Expression:**
+   - An anonymous function assigned to a variable.
+   - Not hoisted like function declarations, so they must be defined before they are called.
+
+   ```javascript
+   greet(); // Error: Cannot access 'greet' before initialization
+
+   const greet = function(name) {
+     console.log(`Hello, ${name}!`);
+   };
+   greet('John');
+   ```
+
+**3. Arrow Function (ES6+):**
+   - Provides a concise syntax for defining functions.
+   - Does not have its own `this`, `arguments`, `super`, or `new.target`.
+   - Inherits the lexical scoping of `this` from its surrounding code.
+
+   ```javascript
+   const add = (a, b) => a + b;
+   console.log(add(5, 3)); // 8
+   ```
+
+**4. Named Function Expression:**
+   - An anonymous function with a name for better debugging.
+   - Not hoisted like function declarations.
+   - Helps in stack trace debugging.
+
+   ```javascript
+   const multiply = function multiply(a, b) {
+     return a * b;
+   };
+   console.log(multiply(4, 6)); // 24
+   ```
+
+**5. Immediately Invoked Function Expressions (IIFE):**
+   - Defines and executes a function immediately after creation.
+   - Used for creating private scopes and avoiding global scope pollution.
+
+   ```javascript
+   (function() {
+     console.log('I am immediately invoked!');
+   })();
+   ```
+
+**6. First-Class Functions:**
+   - Functions are treated as first-class citizens.
+   - Can be assigned to variables, passed as arguments, and returned from other functions.
+
+   ```javascript
+   const sayHello = function() {
+     return 'Hello';
+   };
+   const greet = sayHello;
+   console.log(greet()); // 'Hello'
+   ```
+
+**7. Higher-Order Functions:**
+   - Functions that take other functions as arguments or return them.
+   - Used for abstraction, code reusability, and functional composition.
+
+   ```javascript
+   const numbers = [1, 2, 3, 4, 5];
+   const doubled = numbers.map(function(number) {
+     return number * 2;
+   });
+   console.log(doubled); // [2, 4, 6, 8, 10]
+   ```
+
+**8. Recursive Functions:**
+   - Functions that call themselves.
+   - Used for tasks with repeated subtasks, like factorials and traversing tree structures.
+   - Requires a base case to avoid infinite recursion.
+
+   ```javascript
+   function factorial(n) {
+     if (n === 0) {
+       return 1;
+     } else {
+       return n * factorial(n - 1);
+     }
+   }
+   console.log(factorial(5)); // 120
+   ```
+
+**9. Constructor Functions:**
+   - Used to create custom objects when called with `new`.
+   - Functions that initialize object properties.
+   - Typically start with an uppercase letter to indicate their constructor nature.
+
+   ```javascript
+   function Person(name, age) {
+     this.name = name;
+     this.age = age;
+   }
+   const john = new Person('John', 30);
+   console.log(john.name); // 'John'
+   ```
+
+**10. Callback Functions:**
+    - Functions passed as arguments to other functions.
+    - Executed after specific events or asynchronous tasks complete.
+    - Used for handling asynchronous code, event handling, and more.
+
+    ```javascript
+    function fetchData(url, callback) {
+      // Simulate fetching data
+      setTimeout(function() {
+        const data = 'Some data';
+        callback(data);
+      }, 1000);
+    }
+    fetchData('https://example.com', function(data) {
+      console.log('Data received:', data);
+    });
+    ```
+
+**11. Closure Functions:**
+    - Functions that retain access to variables in their outer (lexical) scope.
+    - Useful for data encapsulation and creating private variables.
+    - Enable the concept of closures, where the function "closes over" its surrounding scope.
+
+    ```javascript
+    function outer() {
+      const message = 'Hello, ';
+      function inner(name) {
+        return message + name;
+      }
+      return inner;
+    }
+    const sayHello = outer();
+    console.log(sayHello('John')); // 'Hello, John'
+    ```
+
+These examples and explanations cover all the concepts and characteristics of each type of function in JavaScript. Understanding when and how to use each type is essential for effective coding in the language.
