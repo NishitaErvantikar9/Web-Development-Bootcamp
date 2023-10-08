@@ -35,3 +35,128 @@ Each JavaScript engine may have its own unique features, optimizations, and perf
 ![image](https://github.com/NishitaErvantikar9/Web-Development-Bootcamp/assets/120945994/28a8c4b2-3545-4449-9df9-11867bcc705f)
 
 https://medium.com/developers-arena/understanding-the-javascript-v8-engine-6f59bae39f06
+## JS Data types
+Certainly! Here are examples of each data type in JavaScript:
+
+**Primitive Data Types:**
+
+1. **Number:** Represents both integer and floating-point numbers.
+   ```javascript
+   let integerNumber = 42;
+   let floatingPointNumber = 3.14;
+   ```
+
+2. **String:** Represents a sequence of characters enclosed in single or double quotes.
+   ```javascript
+   let greeting = 'Hello';
+   let message = "World";
+   ```
+
+3. **Boolean:** Represents a true or false value.
+   ```javascript
+   let isTrue = true;
+   let isFalse = false;
+   ```
+
+4. **Undefined:** Represents a variable that has been declared but has not been assigned a value.
+   ```javascript
+   let x;
+   console.log(x); // undefined
+   ```
+
+5. **Null:** Represents an intentional absence of any object value or no value at all.
+   ```javascript
+   let y = null;
+   ```
+
+6. **Symbol (ES6):** Represents a unique and immutable value, often used as object property keys.
+   ```javascript
+   const uniqueKey = Symbol('description');
+   ```
+
+7. **BigInt (ES11):** Represents large integers that can't be represented by the Number data type.
+   ```javascript
+   const bigIntValue = 1234567890123456789012345678901234567890n;
+   ```
+
+**Reference Data Types:**
+
+8. **Object:** Represents a collection of key-value pairs.
+   ```javascript
+   const person = { name: 'John', age: 30 };
+   ```
+
+9. **Array:** A specialized object for storing and manipulating ordered lists of data.
+   ```javascript
+   const numbers = [1, 2, 3];
+   ```
+
+10. **Function:** A callable object that can contain a block of code and be invoked with arguments.
+    ```javascript
+    function add(a, b) {
+      return a + b;
+    }
+    ```
+
+11. **Date:** Represents dates and times.
+    ```javascript
+    const currentDate = new Date();
+    ```
+
+12. **Regular Expression (RegExp):** Represents patterns used for string matching and manipulation.
+    ```javascript
+    const regexPattern = /pattern/;
+    ```
+
+13. **Map (ES6):** Represents a collection of key-value pairs.
+    ```javascript
+    const myMap = new Map();
+    myMap.set('key1', 'value1');
+    ```
+
+14. **Set (ES6):** Represents a collection of unique values.
+    ```javascript
+    const mySet = new Set();
+    mySet.add(1);
+    mySet.add(2);
+    ```
+
+15. **Array Buffer (ES6 Typed Arrays):** Represents a fixed-length binary data buffer.
+    ```javascript
+    const buffer = new ArrayBuffer(8);
+    ```
+
+16. **Typed Arrays (ES6):** Provide a way to work with binary data directly and efficiently.
+    ```javascript
+    const intArray = new Int32Array(buffer);
+    ```
+
+17. **Promise (ES6):** Represents a promise of a future value, often used for asynchronous operations.
+    ```javascript
+    const myPromise = new Promise(resolve => resolve('Done!'));
+    ```
+
+18. **Symbol (ES6):** Can also be used as a reference data type when used as an object property key.
+    ```javascript
+    const uniqueSymbol = Symbol('description');
+    ```
+
+19. **Function:** JavaScript functions are first-class objects and can be assigned to variables, passed as arguments, and returned from other functions.
+    ```javascript
+    const multiply = function(a, b) {
+      return a * b;
+    };
+    ```
+
+20. **Custom Objects:** You can create custom reference data types by defining your own classes and constructors.
+    ```javascript
+    class Person {
+      constructor(name, age) {
+        this.name = name;
+        this.age = age;
+      }
+    }
+    const personObject = new Person('Alice', 25);
+    ```
+
+These examples demonstrate the various data types in JavaScript and how they can be used in your code.
