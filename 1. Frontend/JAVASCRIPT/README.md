@@ -655,36 +655,36 @@ I apologize for the confusion. Let's provide comprehensive examples and detailed
     - Functions passed as arguments to other functions.
     - Executed after specific events or asynchronous tasks complete.
     - Used for handling asynchronous code, event handling, and more.
-
-    ```javascript
-    function fetchData(url, callback) {
-      // Simulate fetching data
-      setTimeout(function() {
-        const data = 'Some data';
-        callback(data);
-      }, 1000);
-    }
-    fetchData('https://example.com', function(data) {
-      console.log('Data received:', data);
-    });
-    ```
+   
+       ```javascript
+       function fetchData(url, callback) {
+         // Simulate fetching data
+         setTimeout(function() {
+           const data = 'Some data';
+           callback(data);
+         }, 1000);
+       }
+       fetchData('https://example.com', function(data) {
+         console.log('Data received:', data);
+       });
+       ```
 
 **11. Closure Functions:**
     - Functions that retain access to variables in their outer (lexical) scope.
     - Useful for data encapsulation and creating private variables.
     - Enable the concept of closures, where the function "closes over" its surrounding scope.
 
-    ```javascript
-    function outer() {
-      const message = 'Hello, ';
-      function inner(name) {
-        return message + name;
-      }
-      return inner;
-    }
-    const sayHello = outer();
-    console.log(sayHello('John')); // 'Hello, John'
-    ```
+       ```javascript
+       function outer() {
+         const message = 'Hello, ';
+         function inner(name) {
+           return message + name;
+         }
+         return inner;
+       }
+       const sayHello = outer();
+       console.log(sayHello('John')); // 'Hello, John'
+       ```
 
 These examples and explanations cover all the concepts and characteristics of each type of function in JavaScript. Understanding when and how to use each type is essential for effective coding in the language.
 
