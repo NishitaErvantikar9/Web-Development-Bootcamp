@@ -1,7 +1,10 @@
-# JAVASCRIPT
+## What is Javascript?
+
 JavaScript is a high-level, dynamic, and versatile programming language primarily used for web development. It is one of the core technologies for building interactive and dynamic content on the internet, alongside HTML (Hypertext Markup Language) and CSS (Cascading Style Sheets). JavaScript enables developers to create interactive web applications, perform client-side scripting, and manipulate web page elements in response to user actions.
 
 ## What are the features of Javascript?
+| Feature                                | Feature                                | Feature                                |
+| -------------------------------------- | -------------------------------------- | -------------------------------------- |
 | High-Level Language                    | Interpreted Language                   | Dynamic Typing                         |
 | Object-Oriented                        | Functional Programming                 | Prototype-Based Inheritance           |
 | Event-Driven                           | Asynchronous Programming               | Cross-Platform                         |
