@@ -41,7 +41,7 @@ Certainly! Here are examples of each data type in JavaScript:
 **Primitive Data Types:**
 
 1. **Number:** Represents both integer and floating-point numbers.
-   ```javascript
+   ```
    let integerNumber = 42;
    let floatingPointNumber = 3.14;
    ```
