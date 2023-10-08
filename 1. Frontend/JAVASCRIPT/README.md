@@ -32,7 +32,7 @@ Notable JavaScript engines include:
 - **Chakra:** Developed by Microsoft, Chakra was used in the Edge web browser (replaced by V8 in the new Chromium-based Edge).
 
 Each JavaScript engine may have its own unique features, optimizations, and performance characteristics, but they all serve the fundamental purpose of executing JavaScript code in different environments.
-![image](https://github.com/NishitaErvantikar9/Web-Development-Bootcamp/assets/120945994/28a8c4b2-3545-4449-9df9-11867bcc705f)
+
 
 https://medium.com/developers-arena/understanding-the-javascript-v8-engine-6f59bae39f06
 ## JS Data types
