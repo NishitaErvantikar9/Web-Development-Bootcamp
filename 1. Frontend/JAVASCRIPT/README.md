@@ -160,3 +160,108 @@ Certainly! Here are examples of each data type in JavaScript:
     ```
 
 These examples demonstrate the various data types in JavaScript and how they can be used in your code.
+
+## JS variables
+
+### Declarations
+
+Certainly! Let's explore the differences between `var`, `let`, and `const` in JavaScript:
+
+**1. Scope:**
+
+- `var`: Variables declared with `var` have function scope, which means they are limited to the function in which they are defined. If declared outside any function, they have global scope.
+
+- `let` and `const`: Variables declared with `let` and `const` have block scope, which means they are limited to the block (surrounded by curly braces) in which they are defined. This includes loops, conditionals, and functions. Block-scoped variables are not accessible outside of their block.
+
+**Example:**
+
+```javascript
+function exampleScope() {
+  if (true) {
+    var x = 10; // 'x' is function-scoped
+    let y = 20; // 'y' is block-scoped
+    const z = 30; // 'z' is also block-scoped
+  }
+
+  console.log(x); // 10 (accessible)
+  console.log(y); // ReferenceError: y is not defined (not accessible)
+  console.log(z); // ReferenceError: z is not defined (not accessible)
+}
+```
+
+**2. Hoisting:**
+
+- `var`: Variable declarations using `var` are hoisted to the top of their containing function or global scope during compilation. However, their assignments are not hoisted. This means you can access a `var` variable before it's declared, but it will be initialized with `undefined`.
+
+- `let` and `const`: Variables declared with `let` and `const` are also hoisted to the top of their containing block, but unlike `var`, they are not initialized. Attempting to access them before declaration results in a `ReferenceError`.
+
+**Example:**
+
+```javascript
+console.log(x); // undefined (hoisted)
+var x = 10;
+
+console.log(y); // ReferenceError: y is not defined (not hoisted)
+let y = 20;
+```
+
+**3. Reassignment:**
+
+- `var`: Variables declared with `var` can be redeclared and reassigned within the same scope without error.
+
+- `let`: Variables declared with `let` can be reassigned within the same scope, but redeclaration within the same scope is not allowed.
+
+- `const`: Variables declared with `const` cannot be reassigned or redeclared after initialization. They are constants.
+
+**Example:**
+
+```javascript
+var a = 10;
+var a = 20; // No error (redeclaration)
+a = 30; // No error (reassignment)
+
+let b = 10;
+let b = 20; // Error: Identifier 'b' has already been declared (redeclaration)
+b = 30; // No error (reassignment)
+
+const c = 10;
+const c = 20; // Error: Identifier 'c' has already been declared (redeclaration)
+c = 30; // Error: Assignment to constant variable (reassignment)
+```
+
+**4. Temporal Dead Zone (TDZ):**
+
+- `let` and `const` variables are subject to the Temporal Dead Zone (TDZ). This means that they cannot be accessed before their declaration within their block.
+
+**Example:**
+
+```javascript
+console.log(x); // ReferenceError: Cannot access 'x' before initialization
+let x = 10;
+```
+
+**5. Global Object Property:**
+
+- Variables declared with `var` at the global scope become properties of the global object (e.g., `window` in browsers).
+
+- Variables declared with `let` and `const` at the global scope do not become properties of the global object.
+
+**Example:**
+
+```javascript
+var globalVar = 42;
+console.log(window.globalVar); // 42 (globalVar is a property of the global object)
+
+let globalLet = 42;
+console.log(window.globalLet); // undefined (globalLet is not a property of the global object)
+```
+
+**6. Use Cases:**
+
+- `var` is rarely used in modern JavaScript due to its scoping issues and hoisting behavior. It's generally best to avoid using `var`.
+
+- `let` is used when you need to reassign a variable within its scope.
+
+- `const` is used when you want to declare a variable that should not be reassigned after initialization (constants).
+
+In summary, `let` and `const` provide block scoping and are generally preferred over `var` for modern JavaScript development. `let` allows reassignment, while `const` enforces immutability. Choose the one that best suits your variable's requirements.
