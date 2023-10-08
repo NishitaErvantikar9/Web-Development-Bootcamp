@@ -1,3 +1,5 @@
+![image](https://github.com/NishitaErvantikar9/Web-Development-Bootcamp/assets/120945994/a4f4e932-cbb0-4aee-a4cf-428678479557)
+
 ## What is Javascript?
 
 JavaScript is a high-level, dynamic, and versatile programming language primarily used for web development. It is one of the core technologies for building interactive and dynamic content on the internet, alongside HTML (Hypertext Markup Language) and CSS (Cascading Style Sheets). JavaScript enables developers to create interactive web applications, perform client-side scripting, and manipulate web page elements in response to user actions.
